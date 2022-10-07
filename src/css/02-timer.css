@@ -1,0 +1,48 @@
+/* general styling */
+:root {
+  --smaller: 0.75;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+body p {
+  align-items: none;
+}
+
+.timer {
+  align-items: center;
+  color: #333;
+  margin: 0 auto;
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.field {
+  display: inline-block;
+  font-size: calc(1.125rem * var(--smaller));
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.field span {
+  display: block;
+  font-size: calc(3.375rem * var(--smaller));
+}
