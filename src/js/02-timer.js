@@ -50,7 +50,7 @@ let endTime = 0;
 
 const timer = {
   start() {
-    timerId = setInterval(() => {
+    let timerId = setInterval(() => {
       const currentTime = Date.now();
       endTime = timerSetup - currentTime;
       const timers = convertMs(endTime);
