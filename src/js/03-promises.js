@@ -12,7 +12,7 @@ function onFormSubmit(e) {
   const amount = Number(refs.elements.amount.value);
 
   for (let position = 1; position <= amount; position++) {
-    if (position != 1) {
+    if (position !== 1) {
       delay += step;
     }
 
